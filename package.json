@@ -1,0 +1,16 @@
+{
+  "name": "Quiz-Time",
+  "productName": "Quiz-Time",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "MaLa",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "24.2.0"
+  }
+}
