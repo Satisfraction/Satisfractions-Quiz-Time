@@ -25,6 +25,9 @@ function checkAnswer(event) {
 
     // Show a positive feedback message
     feedback.textContent = "Richtig! Gut gemacht!";
+
+    // Increase the score by 1
+    increaseScore();
   }
   // If the answer is wrong
   else {
@@ -78,6 +81,21 @@ function displayQuestion() {
     // Add a click event listener to the answer element
     answerElements[i].addEventListener("click", checkAnswer);
   }
+}
+
+// Define a function to increase the score
+function increaseScore() {
+  // Get the score element
+  const scoreElement = document.querySelector("#score");
+
+  // Get the current score
+  const currentScore = parseInt(scoreElement.textContent);
+
+  // Increase the score by 1
+  const newScore = currentScore + 1;
+
+  // Set the score element's text to the new score
+  scoreElement.textContent = newScore;
 }
 
 // Call the displayQuestion function when the page loads
