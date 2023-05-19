@@ -11,6 +11,28 @@ body {
     to {background-position: 100%;}
 }
 
+p {
+  font-size: 20px;
+}
+
+.question-area {
+  background-color: aquamarine;
+  border: 5px solid limegreen;
+  margin: 10px;
+}
+
+.answer-area {
+  background-color: aquamarine;
+  border: 5px solid limegreen;
+  margin: 10px;
+}
+
+.score-area {
+  background-color: aquamarine;
+  border: 5px solid limegreen;
+  margin: 10px;
+}
+
     .question {
       font-size: 24px;
       font-weight: bold;
@@ -26,15 +48,15 @@ body {
     }
 
     .answer:hover {
-      background-color: lightblue;
+      background-color: rgb(101, 185, 212);
     }
 
     .correct {
-      background-color: lightgreen;
+      background-color: rgb(19, 161, 19);
     }
 
     .wrong {
-      background-color: pink;
+      background-color: rgb(224, 55, 83);
     }
 
     .feedback {
@@ -45,6 +67,7 @@ body {
 
 .next {
   font-size: 18px;
+  font-weight: bold;
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
@@ -52,5 +75,10 @@ body {
 }
 
 .next:hover {
-  background-color: lightblue;
+  background-color: rgb(106, 199, 230);
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
 }
